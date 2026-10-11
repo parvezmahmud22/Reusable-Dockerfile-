@@ -1,7 +1,7 @@
 # Day 9: Dockerfile Deep Dive
 
 Node.js API in a Docker image, configured at runtime.
-Repo: https://github.com/YOUR-USERNAME/YOUR-REPO
+Repo: [(https://github.com/parvezmahmud22/Reusable-Dockerfile-)
 
 ## Run
 
@@ -56,10 +56,7 @@ docker run --rm greeter:local DevOps   # Hello DevOps
 
 ## Evidence
 
-![health](evidence/health-check.png)
-![env](evidence/env-override.png)
-![cache](evidence/cache-hit.png)
-![entrypoint](evidence/entrypoint-test.png)
+
 
 ## Reflection
 
