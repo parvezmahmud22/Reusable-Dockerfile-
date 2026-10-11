@@ -1,7 +1,7 @@
 
 const http = require("http");
 const PORT = process.env.PORT || 3000;
-const GREETING = process.env.GREETING || "Hello from Docker";
+const GREETING = process.env.GREETING || "This Docker Image made by parvez";
 http.createServer((req, res) => {
  if (req.url === "/health") {
  res.writeHead(200);
